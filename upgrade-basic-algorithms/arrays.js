@@ -12,7 +12,7 @@ console.log(avengers);
 
 // 1.3 Alert numero de elementos en el array usando la propiedad correcta de Array.
 
-/* alert(avengers.length); */
+console.log(avengers.length);
 
 // 1.4 Añade 2 elementos al array: "Morty" y "Summer". 
 // Muestra en consola el último personaje del array
