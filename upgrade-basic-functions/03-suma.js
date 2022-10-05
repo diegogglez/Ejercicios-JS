@@ -18,5 +18,6 @@ function sumAll(param) {
   console.log('Los números de tu array suman:', sumaTotal);
 
 } 
+console.log('hola');
 
 sumAll(numbers);
