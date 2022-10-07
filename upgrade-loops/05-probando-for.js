@@ -10,3 +10,22 @@ const placesToTravel = [
   { id: 59, name: "Madagascar" },
 ];
 
+//?Bucle for normal
+
+for (let i = 0; i < placesToTravel.length; i ++) {
+  if (placesToTravel[i].id === 11) {
+    placesToTravel.splice(i, 1);
+  }
+}
+console.log(placesToTravel); 
+
+//?Bucle foreach
+
+/* placesToTravel.forEach(function(item, i){
+  if (item.id === 11) {
+    placesToTravel.splice(i, 1);
+  }
+})
+
+console.log(placesToTravel); */
+
