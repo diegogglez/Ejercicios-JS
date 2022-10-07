@@ -27,5 +27,5 @@ placesToTravel.forEach((item, i) => {
   }
 })
 
-console.log(placesToTravel);
+console.log(placesToTravel); 
 
