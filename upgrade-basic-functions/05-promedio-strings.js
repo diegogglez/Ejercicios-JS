@@ -8,16 +8,16 @@ function averageWord(param) {
   // Recorro el array con un bucle for
   for (let i = 0; i < param.length; i++){
   // Identifico los valores que se corresponden con un número con un typeof()
-    if(typeof(param[i]) === 'number'){
+    if(typeof(param[i]) == 'number'){
       sumTotal += param[i];
       //Los que no cumplan la condición asumo que son strings y sumo su .length
     } else sumTotal += param[i].length;
 
   }
-  console.log(sumTotal);
+  return sumTotal;
 } 
 
-averageWord(mixedElements);
+console.log(averageWord(mixedElements));
 
 
 
