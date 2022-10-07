@@ -12,20 +12,20 @@ const placesToTravel = [
 
 //?Bucle for normal
 
-for (let i = 0; i < placesToTravel.length; i ++) {
+/* for (let i = 0; i < placesToTravel.length; i ++) {
   if (placesToTravel[i].id === 11) {
     placesToTravel.splice(i, 1);
   }
 }
-console.log(placesToTravel); 
+console.log(placesToTravel);  */
 
 //?Bucle foreach
 
-/* placesToTravel.forEach(function(item, i){
+placesToTravel.forEach((item, i) => {
   if (item.id === 11) {
     placesToTravel.splice(i, 1);
   }
 })
 
-console.log(placesToTravel); */
+console.log(placesToTravel);
 
