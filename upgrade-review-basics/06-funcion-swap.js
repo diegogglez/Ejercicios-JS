@@ -6,7 +6,7 @@
 
 const players = ['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño'];
 
-function swapItems(arr, indexA, indexB) {
+let swapItems = (arr, indexA, indexB) => {
   let itemB = arr[indexA]
   arr[indexA] = arr[indexB];
   arr[indexB] = itemB;
@@ -14,5 +14,6 @@ function swapItems(arr, indexA, indexB) {
 }
 console.log(players);
 console.log(swapItems(players, 2, 3));
+
 
 
