@@ -10,13 +10,15 @@ function findArrayIndex(array, text) {
   array.forEach((item, i) => {
     if (item === text) {
       console.log(i + ': ' + item);
-      //*return i; por qué me da undefined???
+      //return i; //*return dentro del bucle foreach no funciona
     }
   })
 }
 
+
+
 /* findArrayIndex(animals, 'Salamandra') */
-findArrayIndex(animals, 'Caracol');
+//console.log(findArrayIndex(animals, 'Caracol'));
 findArrayIndex(animals, 'Mosquito');
-findArrayIndex(animals, 'Salamandra');
-findArrayIndex(animals, 'Ajolote');
+// findArrayIndex(animals, 'Salamandra');
+// findArrayIndex(animals, 'Ajolote');
