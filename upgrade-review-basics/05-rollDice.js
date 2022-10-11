@@ -10,3 +10,4 @@ function rollDice(num) {
 }
 
 console.log(rollDice(10));
+
